@@ -1,6 +1,6 @@
 class solution{
     private:
-    public:
+   
     void solve(string digit,string output,int index,vector<int>& ans,string mapping[])
     {
         //base case
@@ -19,6 +19,7 @@ class solution{
             output.pop_back();
         }
     }
+     public:
     vector<string> lettercombinations(string digit)
     {
         vector<string>ans;
